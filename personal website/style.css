@@ -79,11 +79,6 @@ nav .Resume {
     color: var(--white);
 }
 
-
-/* nav a:last-child:hover {
-    color: var(--white);
-} */
-
 #intro {
     padding: 4rem 1rem 10rem 1rem;
     margin: 0 auto;
@@ -163,4 +158,25 @@ h3 {
 
 #contact a {
     color: var(--magenta);
+}
+
+#contact span:hover {
+    color: var(--hotmag);
+}
+
+@media(min-width:850px) {
+    nav {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    nav li:first-child {
+        flex-basis: auto;
+        margin-right: auto;
+    }
+}
+
+@media(min-width:1200px) {
+    #intro {
+        max-width: 1200px;
+    }
 }
