@@ -180,3 +180,9 @@ h3 {
         max-width: 1200px;
     }
 }
+
+#projects {
+    background-color: var(--dkblue);
+    padding: 1rem;
+    height: 30rem;
+}
