@@ -1,0 +1,31 @@
+.questions {
+    background-color: aliceblue;
+    /* margin: 2rem; */
+    margin-top: 50px;
+    padding: 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: x-large;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    font-size: 15px;
+}
+
+@media screen and (max-width:500px) {
+    .buttons {
+        max-width: 400px;
+    }
+}
