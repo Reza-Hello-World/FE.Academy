@@ -13,7 +13,9 @@ let questionBox = document.getElementsByClassName("questions")[0]
 let trueElement = document.getElementById('True')
 let falseElement = document.getElementById('False')
 let nextElement = document.getElementById('Next')
-    // questionBox.textContent = questions[0].quesion
+let trueAnswerCount = Number(document.getElementById('trueAnswerCount').textContent)
+let allAnswerCount = Number(document.getElementById('allAnswerCount').textContent)
+
 let count = 0
 let trueAnswer = 0
 let falseAnswer = 0
@@ -36,6 +38,8 @@ function selectTrue() {
         questionBox.style.backgroundColor = 'green'
 
         trueAnswer += 1
+        trueAnswerCount += 1
+        console.log(trueAnswerCount)
     } else {
         questionBox.style.backgroundColor = 'red'
         falseAnswer += 1
